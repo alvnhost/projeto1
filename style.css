@@ -28,7 +28,7 @@ nav ul li a {
     text-decoration: none;
     border: outset 1px rgb(255, 255, 255);
     border-radius: 10%;
-    border-inline-color: rgb(255, 255, 255);
+    border-inline-color: rgb(0, 0, 0);
     
 }
 
@@ -43,7 +43,7 @@ nav ul li a {
 .banner {
     background-image: url('banner.jpg');
     background-size: cover;
-    color: #f5f5f5;
+    color: #000000;
     padding: 100px;
     text-align: center;
 }
