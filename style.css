@@ -1,0 +1,70 @@
+/* Adicionando as estilizações fornecidas ao CSS existente */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #d3ad04;
+    color: #000000;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    border-style: outset ;
+    border-radius: 10%;
+}
+
+.container img {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    border-radius: 25%;
+}
+
+.banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    color: #d3ad04;
+    padding: 100px;
+    text-align: center;
+}
+
+.sobre,
+.areas-de-atuacao,
+.equipe,
+.contato {
+    padding: 40px 0;
+}
+
+footer {
+    background-color: #d3ad04;
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+section div h2 p {
+    color: black;
+}
+

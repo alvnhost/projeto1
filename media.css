@@ -1,0 +1,35 @@
+/* Adicionando a media query para design responsivo */
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%; /* Reduz a largura do container para telas menores */
+    }
+
+    header {
+        padding: 10px 0; /* Reduz o preenchimento do cabeçalho para telas menores */
+    }
+
+    nav ul {
+        flex-direction: column; /* Alinha os itens da lista verticalmente para telas menores */
+    }
+
+    nav ul li {
+        margin-right: 0; /* Remove a margem direita dos itens da lista para telas menores */
+        margin-bottom: 10px; /* Adiciona margem inferior aos itens da lista para telas menores */
+    }
+
+    .banner {
+        padding: 50px; /* Reduz o preenchimento do banner para telas menores */
+    }
+
+    .sobre,
+    .areas-de-atuacao,
+    .equipe,
+    .contato {
+        padding: 20px 0; /* Reduz o preenchimento das seções para telas menores */
+    }
+
+    section div h2 p {
+        font-size: 16px; /* Reduz o tamanho do texto dentro das seções para telas menores */
+    }
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escritório de Advocacia</title>
+    <!-- Link para o arquivo CSS do Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS media query em um elemento de link -->
+<link rel="stylesheet" media="(max-width: 800px)" href="media.css" />
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilos específicos para a página */
+        header {
+            background-color: #d4af37;
+            /* Dourado */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header img {
+            width: 50px;
+            /* Ajuste o tamanho conforme necessário */
+            margin-left: 20px;
+            /* Adiciona margem à esquerda */
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            /* Centraliza os itens */
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #d4af37;
+            /* Dourado */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="17681494-logo-inicial-do-escritorio-de-advocacia-letra-d-logotipo-legal-e-conceito-de-advogados-gratis-vetor.jpg"
+                alt="Logo do Escritório de Advocacia">
+        </div>
+        <nav>
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                <li class="nav-item"><a class="nav-link" href="#areas">Áreas de Atuação</a></li>
+                <li class="nav-item"><a class="nav-link" href="#equipe">Equipe</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="banner" class="banner">
+        <div class="container">
+            <h2>Escritório de Advocacia em Cabo Frio, RJ</h2>
+            <p>Oferecendo serviços jurídicos de qualidade para atender às suas necessidades.</p>
+        </div>
+    </section>
+
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>O kdsa Advogados Associados é um escritório de advocacia localizado em Cabo Frio, RJ. Com uma equipe
+                experiente e dedicada, oferecemos serviços jurídicos de alta qualidade para nossos clientes.</p>
+        </div>
+    </section>
+
+    <section id="areas" class="areas-de-atuacao">
+        <div class="container">
+            <h2>Áreas de Atuação</h2>
+            <ul>
+                <li>Direito Civil</li>
+                <li>Direito Penal</li>
+                <li>Direito do Trabalho</li>
+                <li>Direito de Família</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="equipe" class="equipe">
+        <div class="container">
+            <h2>Nossa Equipe</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="member">
+                        <img src="istockphoto-1308122085-612x612.jpg" alt="Advogado 1">
+                        <h3>João Silva</h3>
+                        <p>Advogado Sênior</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="member">
+                        <img src="gettyimages-1365436734-612x612.jpg" alt="Advogado 2">
+                        <h3>Maria Oliveira</h3>
+                        <p>Advogada Júnior</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2>Contate-nos</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensagem:</label>
+                    <textarea class="form-control" id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 kdsa Advogados Associados. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Link para o arquivo JavaScript do Bootstrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
